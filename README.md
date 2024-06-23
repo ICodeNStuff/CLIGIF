@@ -7,16 +7,16 @@
 # Installing: pip install cligif
 # Usage:
 ### For images:
-"""
-_ = ImageObj(filename=<string>, char=<character>, quality_mp=<int>, brightness=<int>, auto_adjust=<boolean>)
+    
+_ = ImageObj(filename=-string-, char=-character-, quality_mp=-int-, brightness=-int-, auto_adjust=-boolean-)
 
 _.render() # returns -1 on failure
-"""
+
 ### For GIFs:
-"""
-_ = GifObj(filename=<string>, char=<character>, quality_mp=<int>, brightness=<int>, auto_adjust=<boolean>, additional_text=<string>, repeat_times=<int>, respect_framerate=<boolean>)
+
+_ = GifObj(filename=-string>, char=-character-, quality_mp=-int-, brightness=-int-, auto_adjust=-boolean-, additional_text=-string-, repeat_times=-int-, respect_framerate=-boolean-)
 
 _.render() # returns -1 on failure
-"""
+
 
 
